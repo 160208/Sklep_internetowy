@@ -1,0 +1,42 @@
+html {
+  background-color: rgb(249, 182, 210);
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logout {
+  margin-top: 100px;
+}
+.header {
+  margin-bottom: 100px;
+}
+.logout__button {
+  width: 200px;
+  height: 100px;
+  border-radius: 90px;
+  background-color: rgb(81, 141, 225);
+}
+.logout__button:hover {
+  transform: scale(120%);
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 30px;
+}
+.table {
+  border: 10px solid #000000;
+  font-size: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.input {
+  margin-top: 50px;
+  height: 50px;
+}
